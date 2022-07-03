@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
+    gap: 20px;
+    width: 80%;
+    margin: 5vh auto;
+  
+    .usersContainer {
+      display: grid;
+      grid-auto-flow: row;
+      gap: 10px;
+  
+      .userList {
+        display: grid;
+        place-items: center start;
+        padding-left: 15px;
+        height: 50px;
+        width: 250px;
+        background-color: rgb(121, 121, 219);
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
